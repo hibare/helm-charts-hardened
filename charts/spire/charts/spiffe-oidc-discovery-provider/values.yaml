@@ -209,6 +209,8 @@ jwtIssuer: ""
 config:
   ## @param config.logLevel The log level, valid values are "debug", "info", "warn", and "error"
   logLevel: info
+  ## @param config.logFormat The log format, valid values are "text" and "json"
+  logFormat: text
   ## @param config.jwtDomain [string] The JWT domain. Defaults to oidc-discovery.$jwtIssuer URL-parsed host if unset
   jwtDomain: ""
   ## @param config.jwksUri [string] The JWKS URI
